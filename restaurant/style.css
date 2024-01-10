@@ -1,0 +1,270 @@
+body {
+    transition: background-color 0.5s ease;
+    margin: 0;
+    background-color: #ffffff; /* Default background color */
+    color: #333333; /* Default text color */
+}
+
+/* Add your styling for dark mode here */
+.dark-mode {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+/* Add additional styles for your navbar, header, or other elements */
+nav {
+    text-align: center;
+    padding: 10px;
+    background-color: #FF69B4; /* Navbar background color */
+}
+
+nav a {
+    text-decoration: none;
+    margin: 0 15px;
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #FF1493; /* Change link color on hover */
+}
+
+#toggle-theme-btn {
+    float: right;
+    margin: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.container {
+    text-align: center;
+    padding: 100px 20px; /* Adjust padding to center content */
+}
+
+h1 {
+    color: #4CAF50;
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+.order-button {
+    background-color: #FF69B4;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-image 0.3s ease;
+}
+
+.order-button:hover {
+    background-image: linear-gradient(to right, #FF69B4, #FF1493);
+}
+
+.about-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.about-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.details-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.details-left {
+    width: 50%;
+}
+
+.details-left p {
+    font-size: 18px;
+    color: #333333;
+}
+
+.details-right {
+    width: 50%;
+}
+
+.details-right img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.meal-of-the-day {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.meal-of-the-day h2 {
+    font-size: 28px;
+    color: #333333;
+}
+
+.meal-details-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-top: 1px solid #ccc; /* Add a border between meal details */
+}
+
+.meal-left {
+    width: 30%;
+}
+
+.meal-left img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.meal-right {
+    width: 65%;
+}
+
+.meal-right h3 {
+    color: #4CAF50;
+}
+
+.meal-right p {
+    font-size: 16px;
+    color: #333333;
+}
+
+.meal-amount {
+    font-size: 18px;
+    color: #FF69B4;
+}
+.gallery-section {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.gallery-section h2 {
+    font-size: 28px;
+    color: #333333;
+}
+
+.gallery-images-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.gallery-image {
+    width: 30%;
+    margin: 10px;
+    overflow: hidden;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+
+.gallery-image img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.gallery-image:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+.order-now-section {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.order-now-section h2 {
+    font-size: 28px;
+    color: #333333;
+}
+
+.order-form-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.order-image {
+    width: 30%;
+}
+
+.order-image img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.order-form {
+    width: 65%;
+}
+
+.order-form h3 {
+    font-size: 24px;
+    color: #4CAF50;
+}
+
+.order-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input,
+textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button.order-now-button {
+    background-color: #FF69B4;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button.order-now-button:hover {
+    background-color: #FF1493;
+}
+
+
+footer {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-column {
+    width: 30%;
+}
+
+.footer-column h4 {
+    font-size: 18px;
+    color: #FF69B4;
+}
+
+.footer-column p {
+    font-size: 14px;
+}
